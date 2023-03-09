@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+width: 100vw;
+height: 100vh;
+
+}
+ img{
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 100vw;
+}
+
+a{
+    margin-top: -4px;
+    padding: 5px 0 5px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    background-color: firebrick;
+    color: white;
+    width: 100vw;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(255, 1, 1);
+    text-decoration: underline;
+    color: black;
+}
